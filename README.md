@@ -21,11 +21,11 @@ Get the Conda env file we are going to need and install the file
 ```bash
 !wget https://raw.githubusercontent.com/MolSSI/mmic_autodock_vina/main/devtools/conda-envs/test_env.yaml
 !mamba env update -n base -f test_env.yaml
-! pip install git+https://github.com/MolSSI/mmic_autodock_vina.git
+!pip install git+https://github.com/MolSSI/mmic_autodock_vina.git
 ```
 
 ### Local machine
-Run t he following:
+Run the following:
 ```bash
 conda env create -f https://raw.githubusercontent.com/MolSSI/mmic_autodock_vina/main/devtools/conda-envs/test_env.yaml
 ```
