@@ -25,7 +25,7 @@ Get the Conda env file we are going to need and install the file
 ```
 
 ### Local machine
-Run the following:
+Make sure conda is installed on your system, then run the following:
 ```bash
 conda env create -f https://raw.githubusercontent.com/MolSSI/mmic_autodock_vina/main/devtools/conda-envs/test_env.yaml
 ```
